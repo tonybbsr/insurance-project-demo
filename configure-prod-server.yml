@@ -18,4 +18,4 @@
     command: sudo docker rm insure-me
 
   - name: deploy insureme application
-    command: sudo docker run -itd -p 8081:8081 tonybbsr/insure-me:3.0
+    command: sudo docker run -itd -p 8081:8081 --name insure-me tonybbsr/insure-me:3.0
